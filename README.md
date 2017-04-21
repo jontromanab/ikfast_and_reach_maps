@@ -40,6 +40,9 @@ It will return couple of ik solutions. One of the results should be close to you
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b0bb654c4ad80ed7564ab584201c0afdf3328a6
 
 
