@@ -3,7 +3,7 @@
 
 ## How to test ikfast file
 
-in the ikfast_Test ikfastdemo is provided. Build the demo by
+in the ikfast_Test, ikfastdemo is provided. Build the demo by
 
 **g++ ikfastdemo.cpp -lstdc++ -llapack -o compute -lrt**
 
@@ -36,7 +36,7 @@ Found fk solution for end frame:
 **./compute ik 1.009253 0.347347 -0.375207 -0.415666 0.657023 0.361611 -0.514568**
 
 
-It will return couple of ik solution. One of the results should be close to your provided fk
+It will return couple of ik solutions. One of the results should be close to your provided fk
 
 
 
