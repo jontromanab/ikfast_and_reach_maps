@@ -5,15 +5,15 @@
 
 in the ikfast_Test ikfastdemo is provided. Build the demo by
 
-g++ ikfastdemo.cpp -lstdc++ -llapack -o compute -lrt
+**g++ ikfastdemo.cpp -lstdc++ -llapack -o compute -lrt**
 
-run ./compute
+run **./compute**
 
 =======================
 ### Test fk and ik
 run an arbitary fk
 
-** ./compute fk 0.1 0.2 0.3 0.4 0.5 0.6 **
+**./compute fk 0.1 0.2 0.3 0.4 0.5 0.6**
 
 see the results. It will show fk solution with Translation and Rotation of the ee link. Put them back in the ik to see the same fk results. An example result of fk:
 
@@ -33,7 +33,7 @@ Found fk solution for end frame:
   Quaternion:  -0.415666   0.657023   0.361611   -0.514568   
                -0.415666 + 0.657023i + 0.361611j - 0.514568k   (alternate convention) 
 
-** ./compute ik 1.009253 0.347347 -0.375207 -0.415666 0.657023 0.361611 -0.514568 **
+**./compute ik 1.009253 0.347347 -0.375207 -0.415666 0.657023 0.361611 -0.514568**
 
 
 It will return couple of ik solution. One of the results should be close to your provided fk
